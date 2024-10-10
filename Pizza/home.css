@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+
+header {
+    background-color: #ff6347; /* Tomato color for header */
+    padding: 10px 20px; /* Padding for the header */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    color: white; /* Logo text color */
+    font-size: 24px; /* Larger font size for the logo */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display links in a row */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    padding: 8px 15px; /* Padding for links */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-top: 50px; /* Space above the heading */
+    color: #333; /* Dark text color */
+}
